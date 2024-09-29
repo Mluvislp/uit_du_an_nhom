@@ -1,0 +1,39 @@
+# Bytecode biên dịch
+*.class
+
+# Thư mục build và output
+/build/
+/dist/
+/nbproject/build-impl.xml
+/nbproject/genfiles.properties
+/nbproject/private/
+/nbproject/Makefile
+/nbproject/output/
+
+# Tệp biên dịch NetBeans
+nb-configuration.xml
+
+# Tệp tạm thời và log
+*.log
+*.tmp
+
+# Thư mục tài nguyên biên dịch
+/target/
+/bin/
+/out/
+
+# Tệp IDEs (IntelliJ IDEA, Eclipse, VSCode...)
+/.idea/
+/*.iml
+*.iws
+/.vscode/
+/.project
+/.classpath
+/.settings/
+/.settings/
+
+# Tệp hệ điều hành
+.DS_Store
+Thumbs.db
+
+# Tệp JAR
