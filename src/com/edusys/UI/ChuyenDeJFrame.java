@@ -544,9 +544,9 @@ public class ChuyenDeJFrame extends javax.swing.JFrame {
         this.setForm(cd);
         this.row = -1;
         this.updateStatus();
-        ImageIcon icon = XImage.read("macdinh.jpg");//Đọc hình từ logos
+        ImageIcon icon = XImage.read("UitLogo.png");//Đọc hình từ logos
         lblHinh.setIcon(icon);
-        lblHinh.setToolTipText("macdinh.jpg");
+        lblHinh.setToolTipText("UitLogo.png");
     }
     
     private void insert(){

@@ -701,8 +701,6 @@ public class CuaSoChinh extends javax.swing.JFrame implements Runnable{
         //loadDongHo();
         //updateHinhBackGround("UitLogo.png");
         lblbackground.setIcon(XImage.read2("UitLogo.png", 500, 350));
-        //ImageIcon img = new ImageIcon("Image//fpt.png");
-        //ImageIcon img = new ImageIcon("src//Image//fpt.png");
         
         new Timer(1, new ActionListener() {
             @Override

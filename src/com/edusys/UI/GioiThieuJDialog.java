@@ -131,8 +131,7 @@ public class GioiThieuJDialog extends javax.swing.JDialog {
     // End of variables declaration//GEN-END:variables
 
     private void init() {
-        //ImageIcon icon = new ImageIcon(new ImageIcon("src/com/edusys/Image/Poly.png").getImage().getScaledInstance(lblanh.getWidth(), lblanh.getHeight(), Image.SCALE_SMOOTH));
-        lblanh.setIcon(XImage.read2("Poly.png", 500, 170));
+        lblanh.setIcon(XImage.read2("UitLogoNoText.png", 500, 170));
         txtIntro.setEditable(false);
         txtIntro.setFocusable(false);
         this.setLocationRelativeTo(null);

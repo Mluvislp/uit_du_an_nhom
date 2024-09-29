@@ -239,10 +239,7 @@ public class DangNhapJDialog extends javax.swing.JDialog {
 
     private void init() {
         this.setLocationRelativeTo(null);
-        //ImageIcon img = new ImageIcon("src//Image//fpt.png");
-        //this.setIconImage(img.getImage());
         this.setTitle("Hệ Thống Quản Lí Đào Tạo");
-        //UpdateHinh("UitLogo.png");
         lblanh.setIcon(XImage.read2("UitLogo.png", 140, 150));
     }
     
