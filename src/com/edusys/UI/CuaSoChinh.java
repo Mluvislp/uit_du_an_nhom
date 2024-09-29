@@ -301,11 +301,11 @@ public class CuaSoChinh extends javax.swing.JFrame implements Runnable{
 
         lblbackground.setBackground(new java.awt.Color(255, 255, 255));
         lblbackground.setOpaque(true);
-        getContentPane().add(lblbackground, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 122, 900, 450));
+        getContentPane().add(lblbackground, new org.netbeans.lib.awtextra.AbsoluteConstraints(200, 120, 500, 450));
 
         mnuHeThong.setText("Hệ thống");
 
-        mniDangXuat.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_O, java.awt.event.InputEvent.CTRL_MASK));
+        mniDangXuat.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_O, java.awt.event.InputEvent.CTRL_DOWN_MASK));
         mniDangXuat.setFont(new java.awt.Font("Segoe UI", 3, 12)); // NOI18N
         mniDangXuat.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/edusys/Image/log-out.png"))); // NOI18N
         mniDangXuat.setText("Đăng xuất");
@@ -343,7 +343,7 @@ public class CuaSoChinh extends javax.swing.JFrame implements Runnable{
 
         mnuQuanLi.setText("Quản lí");
 
-        mniChuyenDe.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_F1, java.awt.event.InputEvent.CTRL_MASK));
+        mniChuyenDe.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_F1, java.awt.event.InputEvent.CTRL_DOWN_MASK));
         mniChuyenDe.setFont(new java.awt.Font("Segoe UI", 3, 12)); // NOI18N
         mniChuyenDe.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/edusys/Image/copy.png"))); // NOI18N
         mniChuyenDe.setText("Chuyên đề");
@@ -354,7 +354,7 @@ public class CuaSoChinh extends javax.swing.JFrame implements Runnable{
         });
         mnuQuanLi.add(mniChuyenDe);
 
-        mniKhoaHoc.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_F2, java.awt.event.InputEvent.CTRL_MASK));
+        mniKhoaHoc.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_F2, java.awt.event.InputEvent.CTRL_DOWN_MASK));
         mniKhoaHoc.setFont(new java.awt.Font("Segoe UI", 3, 12)); // NOI18N
         mniKhoaHoc.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/edusys/Image/elearning.png"))); // NOI18N
         mniKhoaHoc.setText("Khóa học");
@@ -365,7 +365,7 @@ public class CuaSoChinh extends javax.swing.JFrame implements Runnable{
         });
         mnuQuanLi.add(mniKhoaHoc);
 
-        mniNguoiHoc.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_F3, java.awt.event.InputEvent.CTRL_MASK));
+        mniNguoiHoc.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_F3, java.awt.event.InputEvent.CTRL_DOWN_MASK));
         mniNguoiHoc.setFont(new java.awt.Font("Segoe UI", 3, 12)); // NOI18N
         mniNguoiHoc.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/edusys/Image/people.png"))); // NOI18N
         mniNguoiHoc.setText("Người học");
@@ -376,7 +376,7 @@ public class CuaSoChinh extends javax.swing.JFrame implements Runnable{
         });
         mnuQuanLi.add(mniNguoiHoc);
 
-        mniHocVien.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_F4, java.awt.event.InputEvent.CTRL_MASK));
+        mniHocVien.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_F4, java.awt.event.InputEvent.CTRL_DOWN_MASK));
         mniHocVien.setFont(new java.awt.Font("Segoe UI", 3, 12)); // NOI18N
         mniHocVien.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/edusys/Image/HocVienIcon.png"))); // NOI18N
         mniHocVien.setText("Học viên");
@@ -387,7 +387,7 @@ public class CuaSoChinh extends javax.swing.JFrame implements Runnable{
         });
         mnuQuanLi.add(mniHocVien);
 
-        mniNhanVien.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_F5, java.awt.event.InputEvent.CTRL_MASK));
+        mniNhanVien.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_F5, java.awt.event.InputEvent.CTRL_DOWN_MASK));
         mniNhanVien.setFont(new java.awt.Font("Segoe UI", 3, 12)); // NOI18N
         mniNhanVien.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/edusys/Image/Staff.png"))); // NOI18N
         mniNhanVien.setText("Nhân viên");
@@ -402,7 +402,7 @@ public class CuaSoChinh extends javax.swing.JFrame implements Runnable{
 
         mnuThongKe.setText("Thống kê");
 
-        mniBangDiem.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_F1, java.awt.event.InputEvent.SHIFT_MASK));
+        mniBangDiem.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_F1, java.awt.event.InputEvent.SHIFT_DOWN_MASK));
         mniBangDiem.setFont(new java.awt.Font("Segoe UI", 3, 12)); // NOI18N
         mniBangDiem.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/edusys/Image/transcript.png"))); // NOI18N
         mniBangDiem.setText("Bảng điểm");
@@ -414,7 +414,7 @@ public class CuaSoChinh extends javax.swing.JFrame implements Runnable{
         mnuThongKe.add(mniBangDiem);
         mnuThongKe.add(jSeparator5);
 
-        mniLuongNguoiHoc.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_F2, java.awt.event.InputEvent.SHIFT_MASK));
+        mniLuongNguoiHoc.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_F2, java.awt.event.InputEvent.SHIFT_DOWN_MASK));
         mniLuongNguoiHoc.setFont(new java.awt.Font("Segoe UI", 3, 12)); // NOI18N
         mniLuongNguoiHoc.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/edusys/Image/NguoiHocTungNam.png"))); // NOI18N
         mniLuongNguoiHoc.setText("Lượng người học");
@@ -425,7 +425,7 @@ public class CuaSoChinh extends javax.swing.JFrame implements Runnable{
         });
         mnuThongKe.add(mniLuongNguoiHoc);
 
-        mniDiemChuyenDe.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_F3, java.awt.event.InputEvent.SHIFT_MASK));
+        mniDiemChuyenDe.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_F3, java.awt.event.InputEvent.SHIFT_DOWN_MASK));
         mniDiemChuyenDe.setFont(new java.awt.Font("Segoe UI", 3, 12)); // NOI18N
         mniDiemChuyenDe.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/edusys/Image/chart.png"))); // NOI18N
         mniDiemChuyenDe.setText("Điểm chuyên đề");
@@ -437,7 +437,7 @@ public class CuaSoChinh extends javax.swing.JFrame implements Runnable{
         mnuThongKe.add(mniDiemChuyenDe);
         mnuThongKe.add(jSeparator6);
 
-        mniDoanhThu.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_F4, java.awt.event.InputEvent.SHIFT_MASK));
+        mniDoanhThu.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_F4, java.awt.event.InputEvent.SHIFT_DOWN_MASK));
         mniDoanhThu.setFont(new java.awt.Font("Segoe UI", 3, 12)); // NOI18N
         mniDoanhThu.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/edusys/Image/DoanhThuIcon.png"))); // NOI18N
         mniDoanhThu.setText("Doanh thu");
@@ -699,8 +699,8 @@ public class CuaSoChinh extends javax.swing.JFrame implements Runnable{
         setLocationRelativeTo(null);
 
         //loadDongHo();
-        //updateHinhBackGround("OngPoLy.png");
-        lblbackground.setIcon(XImage.read2("OngPoLy.png", 900, 450));
+        //updateHinhBackGround("UitLogo.png");
+        lblbackground.setIcon(XImage.read2("UitLogo.png", 500, 350));
         //ImageIcon img = new ImageIcon("Image//fpt.png");
         //ImageIcon img = new ImageIcon("src//Image//fpt.png");
         

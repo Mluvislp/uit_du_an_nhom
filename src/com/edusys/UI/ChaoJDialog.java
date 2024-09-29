@@ -55,7 +55,7 @@ public class ChaoJDialog extends javax.swing.JDialog {
         pgbLoad.setOpaque(true);
         pgbLoad.setStringPainted(true);
         getContentPane().add(pgbLoad, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 320, 530, 30));
-        getContentPane().add(lblAnh, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 530, 320));
+        getContentPane().add(lblAnh, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 30, 320, 260));
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
@@ -110,8 +110,8 @@ public class ChaoJDialog extends javax.swing.JDialog {
 
     private void init() {
         pgbLoad.setBackground(new Color(100,102,102));
-        //UpdateHinh("fptnen.png");
-        lblAnh.setIcon(XImage.read2("fptnen.png", 530, 320));
+        //UpdateHinh("UitLogo.png");
+        lblAnh.setIcon(XImage.read2("UitLogo.png", 230, 220));
         pgbLoad.setStringPainted(true);
         setLocationRelativeTo(null);
         //pgbLoad.setIndeterminate(true);

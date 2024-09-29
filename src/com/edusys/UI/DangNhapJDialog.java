@@ -57,7 +57,6 @@ public class DangNhapJDialog extends javax.swing.JDialog {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        lblanh = new javax.swing.JLabel();
         pnlBackGround = new javax.swing.JPanel();
         txtMatKhau = new javax.swing.JPasswordField();
         txtMaNV = new javax.swing.JTextField();
@@ -66,10 +65,10 @@ public class DangNhapJDialog extends javax.swing.JDialog {
         btnKetThuc = new javax.swing.JButton();
         lblMatKhau = new javax.swing.JLabel();
         lblTenDangNhap = new javax.swing.JLabel();
+        lblanh = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
-        getContentPane().add(lblanh, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 190, 200));
 
         pnlBackGround.setBackground(new java.awt.Color(255, 255, 255));
 
@@ -118,7 +117,9 @@ public class DangNhapJDialog extends javax.swing.JDialog {
         pnlBackGroundLayout.setHorizontalGroup(
             pnlBackGroundLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, pnlBackGroundLayout.createSequentialGroup()
-                .addGap(0, 226, Short.MAX_VALUE)
+                .addGap(0, 27, Short.MAX_VALUE)
+                .addComponent(lblanh, javax.swing.GroupLayout.PREFERRED_SIZE, 190, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(18, 18, 18)
                 .addGroup(pnlBackGroundLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                     .addComponent(lblTenDangNhap)
                     .addComponent(lblMatKhau)
@@ -149,6 +150,9 @@ public class DangNhapJDialog extends javax.swing.JDialog {
                     .addComponent(btnKetThuc)
                     .addComponent(jButton1))
                 .addContainerGap())
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, pnlBackGroundLayout.createSequentialGroup()
+                .addGap(0, 0, Short.MAX_VALUE)
+                .addComponent(lblanh, javax.swing.GroupLayout.PREFERRED_SIZE, 200, javax.swing.GroupLayout.PREFERRED_SIZE))
         );
 
         getContentPane().add(pnlBackGround, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 720, 200));
@@ -238,8 +242,8 @@ public class DangNhapJDialog extends javax.swing.JDialog {
         //ImageIcon img = new ImageIcon("src//Image//fpt.png");
         //this.setIconImage(img.getImage());
         this.setTitle("Hệ Thống Quản Lí Đào Tạo");
-        //UpdateHinh("OngPoly.png");
-        lblanh.setIcon(XImage.read2("OngPoly.png", 190, 200));
+        //UpdateHinh("UitLogo.png");
+        lblanh.setIcon(XImage.read2("UitLogo.png", 140, 150));
     }
     
     NhanVienDAO dao = new NhanVienDAO();
