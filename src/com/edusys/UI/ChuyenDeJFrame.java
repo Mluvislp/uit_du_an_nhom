@@ -661,8 +661,22 @@ public class ChuyenDeJFrame extends javax.swing.JFrame {
             txtMaChuyenDe.requestFocus();
             return false;
         }
+        
+        String maChuyenDe = txtMaChuyenDe.getText().trim();
+        
+        if (!maChuyenDe.matches("^[a-zA-Z0-9]{1,5}$")) {
+            MsgBox.alert(this, "Mã Chuyên Đề phải từ 1-5 ký tự và không chứa ký tự đặc biệt!");
+            txtMaChuyenDe.requestFocus();
+            return false;
+        }
+        
         if(txtTenChuyenDe.getText().equals("")){
             MsgBox.alert(this, "Không được để rỗng Tên Chuyên Đề !");
+            txtTenChuyenDe.requestFocus();
+            return false;
+        }
+        if(txtTenChuyenDe.getText().length() > 50) {
+            MsgBox.alert(this, "Tên Chuyên Đề không được vượt quá 50 ký tự!");
             txtTenChuyenDe.requestFocus();
             return false;
         }
